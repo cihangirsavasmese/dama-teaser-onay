@@ -47,6 +47,8 @@ dl{margin-top:6px;display:grid;grid-template-columns:44px 1fr;gap:3px 8px;font-s
 dt{font-size:10.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--ink3);padding-top:2px}
 .onaykutu{margin-top:18px;padding:16px;border-radius:14px;background:var(--zemin);border:1px solid var(--cizgi)}
 .ob{font-size:12.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--ink3);margin-bottom:10px}
+.vid{margin:14px 0 4px} .vid video{width:100%;aspect-ratio:16/9;border-radius:12px;background:#000;display:block} .vid figcaption{font-size:15px;color:var(--ink2);margin-top:8px;line-height:1.4} .vid figcaption b{display:block;color:var(--ink);font-size:16px}
+.ornekler{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
 .karar{display:flex;gap:10px;flex-wrap:wrap}
 .sec{flex:1 1 220px;display:flex;align-items:center;gap:10px;padding:12px 14px;border-radius:10px;border:2px solid var(--cizgi);background:#fff;cursor:pointer;font-weight:700;font-size:16px}
 .sec input{width:20px;height:20px;accent-color:var(--ink)}
@@ -105,7 +107,23 @@ footer .sar{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap} 
 <main class="sar">
   <nav class="zaman" aria-label="Sekanslar"><a class="seg s1" href="#sekans1" style="flex:8"><b>1</b><span>Yola çıkış</span><i>00:00–00:08</i></a><a class="seg s2" href="#sekans2" style="flex:12"><b>2</b><span>El</span><i>00:08–00:20</i></a><a class="seg s3" href="#sekans3" style="flex:12"><b>3</b><span>Daire</span><i>00:20–00:32</i></a><a class="seg s4" href="#sekans4" style="flex:12"><b>4</b><span>Söz ve akıl</span><i>00:32–00:44</i></a><a class="seg s5" href="#sekans5" style="flex:10"><b>5</b><span>Bugün</span><i>00:44–00:54</i></a><a class="seg s6" href="#sekans6" style="flex:6"><b>6</b><span>Kapanış</span><i>00:54–01:00</i></a></nav>
   <div class="ozetdurum" id="ozet">Yanıtlar yükleniyor…</div>
+  <h2>Kaba kurgu</h2>
+  <div class="liste">
+<article class="kart icerik kk" id="kurgu12" data-no="12" data-ad="Kaba kurgu v8">
+  <header class="kbas"><div class="kno k">▶</div><div><small>60 saniye · müzikli · yazı animasyonu: C (damga)</small><h3>Kaba kurgu v8</h3><p>Yedi kavram, iki bilgi kartı ve kapanış. Kavram adları ekranda; kapanışta “Şimdi yayında”.</p></div></header>
+  <figure class="vid"><video controls preload="metadata" playsinline poster="kurgu/DAMA_Teaser_KabaKurgu_v8_720p.jpg" src="kurgu/DAMA_Teaser_KabaKurgu_v8_720p.mp4"></video></figure>
+  <div class="onaykutu"><div class="ob">Kaba kurgu için kararınız</div><div class="karar"><label class="sec onay"><input type="radio" name="k12" value="onay"> Onaylıyorum</label><label class="sec duz"><input type="radio" name="k12" value="duzeltme"> Düzeltme istiyorum</label></div><textarea name="n12" placeholder="Not ya da düzeltme (isteğe bağlı)"></textarea><div class="yanitlar"></div></div>
+</article>
+<article class="kart icerik kk" id="kurgu13" data-no="13" data-ad="Kavram yazısı animasyonu">
+  <header class="kbas"><div class="kno k">Aa</div><div><small>3 örnek · 14 saniye</small><h3>Kavram yazısı animasyonu</h3><p>Kavram adının ekrana gelişi için üç seçenek. Her örnek aynı üç geçişi gösterir: Yol, Geleneksel El Sanatları, Müzik.</p></div></header>
+  <div class="ornekler"><figure class="vid"><video controls preload="metadata" playsinline poster="kurgu/DAMA_Teaser_YaziAnimasyonu_A.jpg" src="kurgu/DAMA_Teaser_YaziAnimasyonu_A.mp4"></video><figcaption><b>A · Harf harf</b> Çizgi uzar, harfler sırayla alttan yükselerek dizilir.</figcaption></figure><figure class="vid"><video controls preload="metadata" playsinline poster="kurgu/DAMA_Teaser_YaziAnimasyonu_B.jpg" src="kurgu/DAMA_Teaser_YaziAnimasyonu_B.mp4"></video><figcaption><b>B · Çizgiden iniş</b> Çizgi çizilir, kavram adı çizginin arkasından aşağı iner.</figcaption></figure><figure class="vid"><video controls preload="metadata" playsinline poster="kurgu/DAMA_Teaser_YaziAnimasyonu_C.jpg" src="kurgu/DAMA_Teaser_YaziAnimasyonu_C.mp4"></video><figcaption><b>C · Damga</b> Ad büyük ve bulanık gelir, vuruşla yerine oturur.</figcaption></figure></div>
+  <div class="onaykutu"><div class="ob">Hangi animasyon kullanılsın?</div>
+    <div class="karar"><label class="sec onay"><input type="radio" name="k13" value="A"> A · Harf harf</label><label class="sec onay"><input type="radio" name="k13" value="B"> B · Çizgiden iniş</label><label class="sec onay"><input type="radio" name="k13" value="C"> C · Damga</label></div>
+    <textarea name="n13" placeholder="Not ya da düzeltme (isteğe bağlı)"></textarea><div class="yanitlar"></div></div>
+</article>
+  </div>
   <h2>Sekanslar</h2>
+  <p class="not" style="margin:-6px 0 14px">Aşağıdaki pafta ilk tasarımdır; kurgu sırasında sıra, yazılar ve müzik değişti. Güncel hâl yukarıdaki videodadır.</p>
   <div class="liste">
 <article class="kart icerik s1" id="sekans1" data-no="1" data-ad="Yola çıkış">
   <header class="kbas"><div class="kno">1</div><div><small>00:00 – 00:08 · 3 plan · plan 01–03</small><h3>Yola çıkış</h3><p>Sakin açılış. Tek imge: ufukta güneş.</p></div></header>
@@ -392,7 +410,7 @@ const $ = (id) => document.getElementById(id);
 const durum = (t) => { $('durum').textContent = t; };
 function oku() { try { return JSON.parse(localStorage.getItem(ANAHTAR) || '{}'); } catch (e) { return {}; } }
 function yaz(v) { try { localStorage.setItem(ANAHTAR, JSON.stringify(v)); } catch (e) {} }
-const etiket = (b) => { const no = +b.dataset.no; return no === 0 ? 'Genel' : no <= 6 ? 'Sekans ' + no + ' · ' + b.dataset.ad : 'Karar · ' + b.dataset.ad; };
+const etiket = (b) => { const no = +b.dataset.no; return no === 0 ? 'Genel' : no <= 6 ? 'Sekans ' + no + ' · ' + b.dataset.ad : no >= 12 ? 'Kurgu · ' + b.dataset.ad : 'Karar · ' + b.dataset.ad; };
 function topla() {
   const v = {ad: $('ad').value.trim()};
   bolumler.forEach(b => { const no = b.dataset.no; const s = b.querySelector('input:checked'); v['k' + no] = s ? s.value : ''; v['n' + no] = b.querySelector('textarea').value; });
@@ -402,14 +420,14 @@ function metin() {
   const v = topla();
   const satir = bolumler.map(b => {
     const no = b.dataset.no, k = v['k' + no], n = v['n' + no].trim();
-    const d = k === 'onay' ? 'ONAY' : k === 'duzeltme' ? 'DÜZELTME' : 'işaretlenmedi';
+    const d = k === 'onay' ? 'ONAY' : k === 'duzeltme' ? 'DÜZELTME' : k ? 'SEÇİM ' + k : 'işaretlenmedi';
     return etiket(b) + ': ' + d + (n ? ' — ' + n : '');
   });
   return 'Teaser paftası v1 — onay' + (v.ad ? ' (' + v.ad + ')' : '') + '\n' + satir.join('\n');
 }
 function guncelle() {
   const v = topla(); yaz(v);
-  bolumler.forEach(b => { const k = v['k' + b.dataset.no]; b.classList.toggle('secildi-onay', k === 'onay'); b.classList.toggle('secildi-duz', k === 'duzeltme'); });
+  bolumler.forEach(b => { const k = v['k' + b.dataset.no]; b.classList.toggle('secildi-onay', !!k && k !== 'duzeltme'); b.classList.toggle('secildi-duz', k === 'duzeltme'); });
   $('wa').href = 'https://wa.me/?text=' + encodeURIComponent(metin());
 }
 (function yukle() {
@@ -438,10 +456,10 @@ function ciz(satirlar) {
   bolumler.forEach(b => {
     const no = b.dataset.no, y = liste.filter(s => String(s.no) === String(no)), kutu = b.querySelector('.yanitlar');
     b.classList.toggle('gelen-duz', y.some(s => s.karar === 'duzeltme'));
-    b.classList.toggle('gelen-onay', !y.some(s => s.karar === 'duzeltme') && y.some(s => s.karar === 'onay'));
+    b.classList.toggle('gelen-onay', !y.some(s => s.karar === 'duzeltme') && y.some(s => s.karar && s.karar !== 'duzeltme'));
     if (!y.length) { kutu.innerHTML = ''; return; }
-    if (y.some(s => s.karar === 'duzeltme')) duz++; else if (y.some(s => s.karar === 'onay')) onay++;
-    kutu.innerHTML = '<h4>Gelen yanıtlar</h4>' + y.map(s => '<div class="yanit ' + esc(s.karar) + '"><span class="kim">' + esc(s.ad) + ' · ' + (s.karar === 'onay' ? 'Onay' : s.karar === 'duzeltme' ? 'Düzeltme' : 'Not') + '</span><span class="zmn">' + esc(zamanYaz(s.zaman)) + '</span>' + (s.not ? '<span class="ne">' + esc(s.not) + '</span>' : '') + '</div>').join('');
+    if (y.some(s => s.karar === 'duzeltme')) duz++; else if (y.some(s => s.karar)) onay++;
+    kutu.innerHTML = '<h4>Gelen yanıtlar</h4>' + y.map(s => '<div class="yanit ' + esc(s.karar) + '"><span class="kim">' + esc(s.ad) + ' · ' + (s.karar === 'onay' ? 'Onay' : s.karar === 'duzeltme' ? 'Düzeltme' : s.karar ? 'Seçim ' + esc(s.karar) : 'Not') + '</span><span class="zmn">' + esc(zamanYaz(s.zaman)) + '</span>' + (s.not ? '<span class="ne">' + esc(s.not) + '</span>' : '') + '</div>').join('');
   });
   const bos = bolumler.length - onay - duz;
   $('ozet').innerHTML = '<span>Son durum (her kişinin en son yanıtına göre):</span><span class="rz o">' + onay + ' onay</span><span class="rz d">' + duz + ' düzeltme</span><span class="rz b">' + bos + ' yanıtsız</span>';
